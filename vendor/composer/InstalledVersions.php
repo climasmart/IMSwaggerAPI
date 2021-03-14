@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '2b7c923d781aacd4d56f65e54490635320a9b196',
+    'reference' => '20970f106ce349d8e86a385881dbc20a50bf09f0',
     'name' => 'git_user_id/git_repo_id',
   ),
   'versions' => 
@@ -96,7 +96,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '2b7c923d781aacd4d56f65e54490635320a9b196',
+      'reference' => '20970f106ce349d8e86a385881dbc20a50bf09f0',
     ),
     'guzzlehttp/guzzle' => 
     array (

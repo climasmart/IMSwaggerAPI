@@ -1,13 +1,9 @@
-<html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
+#!/usr/bin/php
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure OAuth2 access token for authorization: application
-$config = "Swagger\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');"
+$config = Swagger\Client\Configuration::getDefaultConfiguration()->setAccessToken('YOUR_ACCESS_TOKEN');
 
 $apiInstance = new Swagger\Client\Api\CatalogApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
@@ -44,5 +40,3 @@ try {
     echo 'Exception when calling CatalogApi->multiSKUPriceAndStock: ', $e->getMessage(), PHP_EOL;
 }
 ?>
-  </body>
-</html>
